@@ -1,8 +1,12 @@
-# **TITLE**
-### **Subtitle**
-1. Number One 
+# **Basic Kubernetes Ingress**
+Basic configuration for ingress
+### **How To**
+1. Install nginx with script 
 ```
-Code
+./install-nginx.sh
 ```
-> Note
+2. Apply example manifest
+```
+kubectl apply -f example-manifest.yaml
+```
 
